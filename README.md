@@ -34,48 +34,25 @@ A professional-grade implementation of core Machine Learning algorithms **from f
 ml-models-from-scratch/
 │
 ├── 01_linear_regression/
-│   ├── linear_regression.py
-│   ├── test_linear_regression.py
-│   └── notebook_demo.ipynb
+│ ├── linear_regression.py
+│ ├── test_linear_regression.py
+│ └── notebook_demo.ipynb
 │
 ├── 02_logistic_regression/
-│   ├── logistic_regression.py
-│   ├── test_logistic_regression.py
-│   └── notebook_demo.ipynb
-│
 ├── 03_knn/
-│   ├── knn.py
-│   ├── test_knn.py
-│   └── notebook_demo.ipynb
-│
 ├── 04_decision_tree/
-│   ├── decision_tree.py
-│   ├── test_decision_tree.py
-│   └── notebook_demo.ipynb
-│
 ├── 05_svm/
-│   ├── svm.py
-│   ├── test_svm.py
-│   └── notebook_demo.ipynb
-│
 ├── 06_naive_bayes/
-│   └── notebook_demo.ipynb
-│
 ├── 07_k_means/
-│   ├── kmeans.py
-│   └── notebook_demo.ipynb
-│
 ├── 08_pca/
-│   ├── pca.py
-│   └── notebook_demo.ipynb
 │
 ├── utils/
-│   ├── metrics.py          # accuracy, mse, log-loss, etc.
-│   └── data_generators.py  # create toy datasets
+│ ├── metrics.py # Common evaluation metrics
+│ └── data_generators.py # Toy datasets for testing
 │
 ├── references/
-│   ├── math_notes.md       # derivations, key formulas
-│   └── algorithm_diagrams/ # optional images for notebooks
+│ ├── math_notes.md # Derivations & formulas
+│ └── algorithm_diagrams/ # Visualizations
 │
 ├── requirements.txt
 └── README.md
