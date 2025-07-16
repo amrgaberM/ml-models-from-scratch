@@ -64,7 +64,7 @@ X = np.random.randn(100, 1)
 y = 2 * X.flatten() + 1 + np.random.randn(100) * 0.1
 
 # Create and train model
-model = LinearRegression(learning_rate=0.01, iterations=1000)
+model = LinearRegressionScartch(learning_rate=0.01, iterations=1000)
 model.fit(X, y)
 
 # Make predictions
