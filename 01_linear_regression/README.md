@@ -56,7 +56,7 @@ Interactive demonstration including:
 ## Usage
 
 ```python
-from linear_regression import LinearRegression
+from linear_regression import LinearRegressionScratch
 import numpy as np
 
 # Generate sample data
