@@ -89,16 +89,6 @@ The gradient descent algorithm updates parameters iteratively:
 3. **Backward pass**: Calculate gradients
 4. **Parameter update**: Update weights and bias
 
-### Normalization
-Feature scaling is implemented to improve convergence:
-- Z-score normalization for input features
-- Maintains original scale for predictions
-
-## Performance Characteristics
-
-- **Time Complexity**: O(n × m × iterations) where n is features, m is samples
-- **Space Complexity**: O(n × m) for storing data and gradients
-- **Convergence**: Typically converges in 100-1000 iterations for well-conditioned problems
 
 ## Extending the Implementation
 
@@ -108,18 +98,7 @@ This implementation can be extended to include:
 - Polynomial features
 - Cross-validation
 
-## Testing
 
-Run tests with:
-```bash
-python test_linear_regression.py
-```
-
-Tests verify:
-- Correct gradient computation
-- Convergence to known solutions
-- Handling of edge cases
-- Numerical stability
 
 ## Mathematical Derivation
 
