@@ -1,130 +1,110 @@
-# 🧠 ML Models from Scratch
+# ML Models from Scratch
 
-**A professional-grade implementation of core Machine Learning algorithms from first principles — in pure Python and NumPy.**
+**A professional, first-principles implementation of core Machine Learning algorithms using only Python and NumPy.**
 
-This repository is a foundational engineering exercise: each model is built from scratch to demonstrate mathematical understanding, implementation skill, and production-readiness — without relying on high-level libraries like scikit-learn or TensorFlow.
+This repository is a foundational engineering exercise designed to build a deep understanding of machine learning by re-implementing key algorithms without relying on high-level libraries like Scikit-learn or TensorFlow. Each algorithm is developed from scratch to reinforce theory, numerical reasoning, and production-grade Python practices.
 
----
+## Project Goals
 
-## 🎯 Project Objectives
+* Strengthen core ML theory and mathematical intuition
+* Translate algorithms into clean, vectorized Python code
+* Improve implementation, debugging, and testing skills
+* Build a project portfolio that reflects deep algorithmic understanding
 
-- Reinforce theoretical and mathematical foundations of ML  
-- Translate theory into production-ready Python code  
-- Improve debugging, testing, and numerical reasoning skills  
-- Build a portfolio demonstrating deep understanding of algorithms  
+## Algorithms Implemented
 
----
-
-## 📦 Algorithms to be Implemented
-
-We will implement the following core machine learning algorithms **from scratch**, focusing on both foundational supervised and key unsupervised methods:
-
-### Supervised Learning Algorithms
-
-- **Linear Regression**  
-- **Logistic Regression**  
-- **K-Nearest Neighbors (KNN)**  
-- **Decision Tree Classifier**  
-- **Support Vector Machine (SVM)**  
-- **Naive Bayes Classifier**  
-
-### Unsupervised Learning Algorithms
-
-- **K-Means Clustering**  
-- **Principal Component Analysis (PCA)**  
-
----
-
-## 🗂️ Repository Structure
+We focus on both **supervised** and **unsupervised** algorithms essential to ML engineers.
 
 ### Supervised Learning
-
-- `01_linear_regression/`  
-  - `linear_regression.py`  
-  - `test_linear_regression.py`  
-  - `notebook_demo.ipynb`  
-
-- `02_logistic_regression/`  
-  - `logistic_regression.py`  
-  - `test_logistic_regression.py`  
-  - `notebook_demo.ipynb`  
-
-- `03_knn/`  
-  - `knn.py`  
-  - `test_knn.py`  
-  - `notebook_demo.ipynb`  
-
-- `04_decision_tree/`  
-  - `decision_tree.py`  
-  - `test_decision_tree.py`  
-  - `notebook_demo.ipynb`  
-
-- `05_svm/`  
-  - `svm.py`  
-  - `test_svm.py`  
-  - `notebook_demo.ipynb`  
+* Linear Regression
+* Logistic Regression
+* K-Nearest Neighbors (KNN)
+* Decision Tree Classifier
+* Support Vector Machine (SVM)
+* Naive Bayes Classifier
 
 ### Unsupervised Learning
+* K-Means Clustering
+* Principal Component Analysis (PCA)
 
-- `06_naive_bayes/`  
-  - `notebook_demo.ipynb`  
+## Repository Structure
 
-- `07_k_means/`  
-  - `kmeans.py`  
-  - `notebook_demo.ipynb`  
+```
+.
+├── 01_linear_regression/
+│   ├── linear_regression.py
+│   ├── test_linear_regression.py
+│   └── notebook_demo.ipynb
+│
+├── 02_logistic_regression/
+│   ├── logistic_regression.py
+│   ├── test_logistic_regression.py
+│   └── notebook_demo.ipynb
+│
+├── 03_knn/
+│   ├── knn.py
+│   ├── test_knn.py
+│   └── notebook_demo.ipynb
+│
+├── 04_decision_tree/
+│   ├── decision_tree.py
+│   ├── test_decision_tree.py
+│   └── notebook_demo.ipynb
+│
+├── 05_svm/
+│   ├── svm.py
+│   ├── test_svm.py
+│   └── notebook_demo.ipynb
+│
+├── 06_naive_bayes/
+│   └── notebook_demo.ipynb
+│
+├── 07_k_means/
+│   ├── kmeans.py
+│   └── notebook_demo.ipynb
+│
+├── 08_pca/
+│   ├── pca.py
+│   └── notebook_demo.ipynb
+│
+├── utils/
+│   ├── metrics.py
+│   └── data_generators.py
+│
+├── references/
+│   ├── math_notes.md
+│   └── algorithm_diagrams/
+│
+├── requirements.txt
+└── README.md
+```
 
-- `08_pca/`  
-  - `pca.py`  
-  - `notebook_demo.ipynb`  
+## Key Features
 
-### Shared Resources
+* No ML frameworks used (no scikit-learn, no TensorFlow)
+* Clear code structure for readability and reusability
+* Jupyter notebooks for visual demos and intuition
+* Lightweight unit tests for correctness
+* Utility functions for metrics and data generation
 
-- `utils/`  
-  - `metrics.py`  
-  - `data_generators.py`  
+## Testing & Quality
 
-- `references/`  
-  - `math_notes.md`  
-  - `algorithm_diagrams/`  
+Basic unit tests are included with each algorithm to verify implementation correctness. These can be extended with `pytest` or integrated into CI pipelines for production workflows.
 
-- `requirements.txt`  
-- `README.md`  
+## Tech Stack
 
----
+* Python 3.10+
+* NumPy
+* Matplotlib
+* Jupyter Notebooks
 
-## 🧪 Testing & Reliability
+## Learning Philosophy
 
-Some models include lightweight unit tests to verify correctness and basic functionality. Tests are designed for manual execution and can be integrated with automated testing frameworks later.
+"Understand it. Build it. Explain it."
 
----
+Each model is:
+1. Derived from its mathematical formulation
+2. Implemented with clean, idiomatic NumPy code
+3. Visualized and explained through a demo notebook
 
-## 🛠️ Tech Stack
-
-- Python 3.10+  
-- NumPy  
-- Matplotlib  
-- Jupyter  
-
-No external ML libraries used — focusing on raw algorithmic logic.
-
----
-
-## 🔍 Learning Approach
-
-1. Mathematical foundation: gradients, entropy, distance metrics, matrix algebra  
-2. From-scratch Python implementation using NumPy  
-3. Interactive Jupyter notebooks for visualization and explanation  
-
----
-
-## 📜 License
-
-MIT License — free for educational and personal use.
-
----
-
-## 👤 Author & Intent
-
-This repo is part of my journey to become a Machine Learning Engineer with deep understanding and strong coding discipline.
-
----
+This repo favors **understanding over abstraction** — no shortcuts, no magic methods.
