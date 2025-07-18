@@ -26,7 +26,7 @@ A step-by-step implementation of logistic regression using only NumPy — no mac
 ## Example Output
 
 ```
-Final accuracy: 93.4%
+Final accuracy: 95%
 ```
 
 ## Author
