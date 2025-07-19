@@ -32,29 +32,14 @@ We focus on both **supervised** and **unsupervised** algorithms essential to ML 
 ```
 .
 ├── 01_linear_regression/
-│   ├── linear_regression.py
-│   ├── test_linear_regression.py
-│   └── notebook_demo.ipynb
-│
+│  
 ├── 02_logistic_regression/
-│   ├── logistic_regression.py
-│   ├── test_logistic_regression.py
-│   └── notebook_demo.ipynb
 │
 ├── 03_knn/
-│   ├── knn.py
-│   ├── test_knn.py
-│   └── notebook_demo.ipynb
 │
 ├── 04_decision_tree/
-│   ├── decision_tree.py
-│   ├── test_decision_tree.py
-│   └── notebook_demo.ipynb
 │
 ├── 05_svm/
-│   ├── svm.py
-│   ├── test_svm.py
-│   └── notebook_demo.ipynb
 │
 ├── 06_naive_bayes/
 │   └── notebook_demo.ipynb
